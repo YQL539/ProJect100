@@ -23,6 +23,7 @@
     self.title = @"主页";
     self.view.backgroundColor = [UIColor whiteColor];
     
+    
     UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(100, 200, 300, 50)];
     [self.view addSubview:button];
     button.backgroundColor = [UIColor lightGrayColor];
