@@ -31,6 +31,7 @@
 		B08524641F727249002CE840 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B085245E1F727249002CE840 /* MBProgressHUD.m */; };
 		B08524691F72734A002CE840 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B08524671F72734A002CE840 /* CommonUtil.m */; };
 		B087182F1F73C4C000D3F0C8 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087182E1F73C4C000D3F0C8 /* SettingView.m */; };
+		D61205C31F77F5E1006C14A8 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61205C11F77F5E1006C14A8 /* TestView.m */; };
 		D681C8481F77D0BC00A01A64 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D681C8471F77D0BC00A01A64 /* RemoteViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -102,8 +103,8 @@
 		B08524681F72734A002CE840 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		B087182D1F73C4C000D3F0C8 /* SettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
 		B087182E1F73C4C000D3F0C8 /* SettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
-		D633F80A1F77F374009DEB23 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
-		D633F80B1F77F374009DEB23 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		D61205C11F77F5E1006C14A8 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = ProjectT100/Class/HomeviewController/view/TestView.m; sourceTree = SOURCE_ROOT; };
+		D61205C21F77F5E1006C14A8 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = ProjectT100/Class/HomeviewController/view/TestView.h; sourceTree = SOURCE_ROOT; };
 		D681C8461F77D0BC00A01A64 /* RemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
 		D681C8471F77D0BC00A01A64 /* RemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -309,6 +310,8 @@
 			children = (
 				B084F8C71F73ADB6008FBDC4 /* HomeViewController.h */,
 				B084F8C81F73ADB6008FBDC4 /* HomeViewController.m */,
+				D61205C21F77F5E1006C14A8 /* TestView.h */,
+				D61205C11F77F5E1006C14A8 /* TestView.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -323,8 +326,6 @@
 		B084F8CA1F73ADB6008FBDC4 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D633F80B1F77F374009DEB23 /* TestView.h */,
-				D633F80A1F77F374009DEB23 /* TestView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -600,6 +601,7 @@
 				B084F8D81F73ADB6008FBDC4 /* StartViewController.m in Sources */,
 				B08524361F7270DD002CE840 /* SocketObj.m in Sources */,
 				B01708DE1F70C882005E3B9A /* ViewController.m in Sources */,
+				D61205C31F77F5E1006C14A8 /* TestView.m in Sources */,
 				B08524371F7270DD002CE840 /* TCCommandTool.m in Sources */,
 				B08524611F727249002CE840 /* GCDAsyncSocket.m in Sources */,
 				B08524351F7270DD002CE840 /* SenCmdObj.m in Sources */,
