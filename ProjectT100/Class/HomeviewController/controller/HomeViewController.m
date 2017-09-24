@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "RemoteViewController.h"
+#import "BackgroundView.h"
 @interface HomeViewController ()
 
 @end
