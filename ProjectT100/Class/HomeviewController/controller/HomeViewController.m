@@ -19,6 +19,12 @@
     [self setSubviews];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] init];
+    self.navigationItem.leftBarButtonItem = leftItem;
+}
+
 -(void)setSubviews{
     self.title = @"主页";
     self.view.backgroundColor = [UIColor whiteColor];

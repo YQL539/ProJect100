@@ -21,12 +21,12 @@
                                 NSForegroundColorAttributeName:[UIColor whiteColor],
                                 NSFontAttributeName:[UIFont systemFontOfSize:20]
                                 };
-    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"leftarrow.png"]
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"return_back"]
                                                                 style:UIBarButtonItemStylePlain
                                                                target:self
                                                                action:@selector(onBack)];
-    leftItem.tintColor = [UIColor grayColor];
-//    self.navigationItem.leftBarButtonItem = leftItem;
+    leftItem.tintColor = [UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem = leftItem;
     [self.navigationController.navigationBar setTitleTextAttributes:titleAttr];
     if (IS_IOS_(7)) {
         if ([self respondsToSelector:@selector(edgesForExtendedLayout)])

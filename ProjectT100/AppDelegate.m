@@ -17,9 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     StartViewController *HostVC = [[StartViewController alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:HostVC];
-    nav.navigationBarHidden = YES;
-    [self.window setRootViewController:nav];
+//    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:HostVC];
+//    nav.navigationBarHidden = YES;
+    [self.window setRootViewController:HostVC];
     [self.window makeKeyAndVisible];
     return YES;
 }

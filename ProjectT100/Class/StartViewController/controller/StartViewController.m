@@ -168,6 +168,7 @@
 - (void)presentMainView{
     HomeViewController *homeVC = [[HomeViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+//    nav.navigationBarHidden = YES;
     [self presentViewController:nav animated:NO completion:nil];
 //    [self.navigationController pushViewController:homeVC animated:YES];
 }
