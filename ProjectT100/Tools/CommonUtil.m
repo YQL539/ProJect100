@@ -703,5 +703,18 @@
     return hex;
 }
 
++ (UIImage *)imageWitCornerRadius:(float)cornerRadius image:(UIImage *)original
+{
+    CGRect frame = CGRectMake(0, 0, original.size.width, original.size.height);
+    UIGraphicsBeginImageContextWithOptions(original.size, NO, 1.0);
+    
+    [[UIBezierPath bezierPathWithRoundedRect:frame cornerRadius:cornerRadius] addClip];
+    [original drawInRect:frame];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 
 @end

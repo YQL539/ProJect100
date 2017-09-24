@@ -266,4 +266,7 @@
  @return 十六进制数
  */
 + (NSString *)getHexByDecimal:(NSInteger)decimal;
+//圆角回头要写到imageview的类别里
++ (UIImage *)imageWitCornerRadius:(float)cornerRadius image:(UIImage *)original；
+
 @end
