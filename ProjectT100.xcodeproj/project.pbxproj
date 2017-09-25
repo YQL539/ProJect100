@@ -33,6 +33,7 @@
 		B087182F1F73C4C000D3F0C8 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B087182E1F73C4C000D3F0C8 /* SettingView.m */; };
 		D61205C31F77F5E1006C14A8 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61205C11F77F5E1006C14A8 /* TestView.m */; };
 		D681C8481F77D0BC00A01A64 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D681C8471F77D0BC00A01A64 /* RemoteViewController.m */; };
+		D6F88E591F793517007E6BB9 /* VoicePregressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F88E581F793517007E6BB9 /* VoicePregressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		D61205C21F77F5E1006C14A8 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = ProjectT100/Class/HomeviewController/view/TestView.h; sourceTree = SOURCE_ROOT; };
 		D681C8461F77D0BC00A01A64 /* RemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
 		D681C8471F77D0BC00A01A64 /* RemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
+		D6F88E571F793517007E6BB9 /* VoicePregressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoicePregressView.h; sourceTree = "<group>"; };
+		D6F88E581F793517007E6BB9 /* VoicePregressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoicePregressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +362,8 @@
 		B084F8CE1F73ADB6008FBDC4 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				D6F88E571F793517007E6BB9 /* VoicePregressView.h */,
+				D6F88E581F793517007E6BB9 /* VoicePregressView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				D61205C31F77F5E1006C14A8 /* TestView.m in Sources */,
 				B08524371F7270DD002CE840 /* TCCommandTool.m in Sources */,
 				B08524611F727249002CE840 /* GCDAsyncSocket.m in Sources */,
+				D6F88E591F793517007E6BB9 /* VoicePregressView.m in Sources */,
 				B08524351F7270DD002CE840 /* SenCmdObj.m in Sources */,
 				B084F8D71F73ADB6008FBDC4 /* HomeViewController.m in Sources */,
 				B08524631F727249002CE840 /* MBProgressHUD+MJ.m in Sources */,

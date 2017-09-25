@@ -45,13 +45,13 @@
 }
 
 -(void)pushtoNext{
-    TestView *testView = [[TestView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(_button.frame), self.view.frame.size.width - 20, 300)];
-    [self.view addSubview:testView];
+//    TestView *testView = [[TestView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(_button.frame), self.view.frame.size.width - 20, 300)];
+//    [self.view addSubview:testView];
     
-//    RemoteViewController *remoteVC = [[RemoteViewController alloc]init];
-//    [self.navigationController pushViewController:remoteVC
-//                                         animated:NO
-//     ];
+    RemoteViewController *remoteVC = [[RemoteViewController alloc]init];
+    [self.navigationController pushViewController:remoteVC
+                                         animated:NO
+     ];
 }
 
 @end
